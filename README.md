@@ -9,7 +9,7 @@ To check if an object matches a specified parametrized type, use the function
 `is_object_of_type(obj, parametrized_type)`:
 
 ```python
-from nested_type_checker import is_object_of_type
+from lib.nested_type_checker import is_object_of_type
 
 obj = [123, ({"", True},)]
 
