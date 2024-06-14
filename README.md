@@ -1,11 +1,9 @@
-Nested Type Checker (Beta)
-
-# Description
+## Nested Type Checker (Beta)
 
 A runtime strict type-checking module for Python designed to validate parametrized (nested) types.
 It supports both Python built-in types and custom types.
 
-# Example Usage
+## Example Usage
 
 To check if an object matches a specified parametrized type, use the function
 `is_object_of_type(obj, parametrized_type)`:
@@ -25,11 +23,11 @@ print(a)  # outputs True
 print(b)  # outputs False
 ```
 
-# Support
+## Support
 
 The module supports can validate mappings, tuples, lists, sets, frozensets, callables, unions, optionals, and any other parametrized or unparametrized types, including custom (unparametrized) types.
 
-# Installation
+## Installation
 
 To install, use Python's `pip` package manager:
 
