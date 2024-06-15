@@ -5,7 +5,7 @@ with open("./README.md", "r") as f:
 
 setup(
     name="nested_type_checker",
-    version="0.9.6",
+    version="0.9.7",
     description="A runtime strict type-checking module for Python designed to validate parametrized (nested) types.",
     long_description=long_description,
     long_description_content_type="text/markdown",

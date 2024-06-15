@@ -10,7 +10,7 @@ To check if an object matches a specified parametrized type, use the function `i
 ```python
 from nested_type_checker import is_object_of_type
 
-obj = [123, ({"", True},)]
+obj = [123, ({"": True},)]
 
 CorrectType = list[int | tuple[dict[str, bool]]]
 WrongType = list[bool | tuple[dict[str, bool]]]
