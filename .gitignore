@@ -1,3 +1,4 @@
 .*/
 dist/
 nested_type_checker.egg-info/
+build/
