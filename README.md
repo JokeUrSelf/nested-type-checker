@@ -5,7 +5,9 @@ It supports both Python built-in types and custom types.
 
 ## Example Usage
 
-To check if an object matches a specified parametrized type, use the function `is_object_of_type(your_obj, your_type)`:
+To check if an object matches a specified parametrized type, use the function 
+
+`is_object_of_type(your_obj, your_type)`:
 
 ```python
 from nested_type_checker import is_object_of_type
